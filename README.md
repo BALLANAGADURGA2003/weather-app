@@ -1,39 +1,8 @@
-# weather-app
-How To Make Weather App Using React JS 
-How To Make Weather App Using React JS
+# React + Vite
 
-Project Overview
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-In this project, we will build a simple weather app using React JS. The app will display the current weather and forecast for a given location.
+Currently, two official plugins are available:
 
-Features
-
-- Display current weather conditions (temperature, humidity, wind speed, etc.)
-- Display 5-day weather forecast
-- Search for weather by city name
-- Responsive design
-
-Technologies Used
-
-- React JS
-- OpenWeatherMap API
-- CSS (for styling)
-
-Getting Started
-
-1. Clone the repository: `git clone (link unavailable)
-2. Install dependencies: npm install
-3. Start the app: npm start
-
-API Key
-
-Please note that you need to replace YOUR_API_KEY in src/api.js with your actual OpenWeatherMap API key.
-
-File Structure
-
-- src/: Source code folder
-    - components/: React components folder
-    - api.js: API utility file
-    - index.js: Main entry point
-- public/: Public folder (index.html, etc.)
-
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
